@@ -1,0 +1,30 @@
+{
+    "name": "kevintanjung/foundation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Tanjung",
+            "email": "kevintanjung@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KevinTanjung\\Foundation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KevinTanjung\\Foundation\\Tests": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "phpspec/phpspec": "^4.1"
+    }
+}
